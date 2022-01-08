@@ -1,0 +1,491 @@
+body {
+  font-family: "Roboto Condensed" !important;
+  font-weight: 0 !important;
+  width: auto;
+}
+.container-nav {
+  margin-top: 0 !important;
+  padding-top: 1%;
+  background-color: rgba(0, 0, 0, 0.959);
+  height: 100px !important;
+  width: 100% !important;
+}
+
+.navbar-position{
+  width: 100%;
+  float: right;
+}
+.logo-image {
+  height: 40px !important;
+  margin-top: 5px;
+  margin-left: 15px;
+}
+.nav-item {
+  padding-right: 50px;
+}
+button {
+  background-color: #333333;
+  border: none;
+  border-radius: 7% !important;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+.nav-link {
+  font-size: 14px !important;
+  padding-top: 15px !important;
+}
+.navbar
+.navbar-nav {
+  background-color: rgb(5, 5, 5);
+  justify-content: center;
+  margin-left: 20%;
+}
+.navbar-toggler {
+  margin-bottom: 20px !important;
+  background-color: #6b6b6b78 !important;
+}
+.carousel-caption {
+  height: auto !important;
+  padding: auto !important;
+  text-align: left !important;
+  left: 10% !important;
+  padding-bottom: 20% !important;
+}
+.carousel-caption {
+  padding: 10% !important;
+}
+.vl {
+  margin-top: 20px;
+  border-left: 4px solid #df2626;
+  height: 100px;
+  width: 15px;
+  float: left !important;
+}
+.image-text {
+  float: left !important;
+  margin-top: 30px !important;
+  font-size: small;
+  color: #666464;
+}
+.about-us {
+  width: 100%;
+  height: 600px;
+  box-sizing: border-box;
+  background-color: white;
+}
+.image-block {
+  height: 100%;
+  width: 55%;
+  float: left;
+  min-height: 500px;
+  height: auto;
+}
+.image-frame {
+  padding-top: 6%;
+  padding-bottom: 9%;
+  width: 250px;
+  margin: auto;
+  margin-top: 10%;
+  margin-bottom: 10%;
+  background-color: #212121;
+  position: relative;
+}
+.img-description {
+  color: rgb(182, 179, 179);
+  font-size: 10px;
+  margin-left: 20%;
+  margin-top: 27%;
+}
+.text-block {
+  margin-top: 6%;
+  font-family: "Montserrat" !important;
+  height: 45%;
+  width: 22%;
+  float: left;
+}
+.about-us-intro {
+  font-size: 16px;
+  color: rgb(98, 96, 96);
+}
+.about-us-outro {
+  font-size: 14px;
+  color: rgb(122, 122, 122);
+}
+.about-us-image {
+  margin-left: -50%;
+  margin-top: 30%;
+  display: block;
+  margin-right: auto;
+}
+
+.products-container {
+  font-family: "Montserrat" !important;
+  height: 600px;
+  width: 90%;
+  margin-left: 5%;
+  background-color: rgba(0, 0, 0, 0.507);
+  position: absolute;
+}
+.products-image {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
+.about-us-container{
+  height: 700px;
+  width: 100%;
+}
+.products-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.609), rgba(0, 0, 0, 0.856)), url("../Assets/Images/section-banner-1920.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.products-text {
+  text-align: left;
+  position: absolute;
+  width: 39%;
+  top: 25%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: rgb(197, 193, 193);
+}
+
+.list-pref{
+  list-style-type: none;
+  margin-right: 50px;
+   font-size: 12px;
+}
+.check-icon{
+  margin-right: 20px;
+   color: green;
+}
+.price-details{
+  margin-left: 5%; margin-top: 10%; text-align: left;
+}
+.price{
+  font-size: 22px; margin-top: 0px; font-weight: bold; color: black;
+}
+.product-holder{
+  text-align: center;
+  position: absolute;
+  width: 50%;
+  height: 45%;
+  margin-top: 15%;
+  margin-left: 2%;
+}
+.cards{
+  background-color: rgba(255, 255, 255, 0.137);
+  height: 70%;
+  width: 27%;
+  justify-content: center;
+  float: left;
+  margin: 10px;
+  padding-top: 40px;
+}
+.card-desc{
+  color: rgb(158, 154, 154);
+  font-size: 18px;
+}
+.car-basic{
+  color: rgb(182, 180, 180);
+}
+.car-name{
+  color: black; font-weight: bold;
+}
+.product-title{
+  font-weight:bolder; color: rgb(216, 216, 216);
+}
+.card-info{
+  color: rgb(206, 203, 203);
+}
+.all-products{
+  font-family: "Montserrat" !important;
+  text-align: center;
+  width: 100%;
+  padding-bottom: 100px;
+  justify-content: center;
+  margin-top: 640px;
+}
+.product-message{
+  color: black;
+  font-weight: bold;
+  justify-content: center;
+}
+.products-card-holder{
+  height: fit-content;
+  margin-left: 10%;
+  width: 80%;
+  display: flex;
+}
+.product-card {
+  justify-content: center;
+  text-align: center;
+  border: 1px solid rgb(211, 208, 208);
+  width: 25% ;
+  margin: 1%;
+  height: 500px;
+  border-radius: 5px;
+  box-shadow: 0 4px 6px 0 rgba(0, 0, 0, 0.2);
+}
+.product-card > *:not(img) {
+  padding: 5px 10px;
+}
+
+.product-card img {
+  width: 97%;
+  padding: 11%;
+}
+
+.product-card-body {
+  padding: 5px;
+}
+.card-info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+
+.product-card-body p {
+  color: #3d3d3d;
+  margin-bottom: 20px;
+  font-size: 14px;
+}
+.btn{
+  margin-top: 13% !important;
+  padding-left: 23% !important;
+}
+
+.btn-group {
+  display: flex !important;
+  margin-top: 20px;
+}
+
+.btn-group .btn a {
+  padding: 15px 15px;
+  background-color: #fa3e3e36;
+  color: #fa3e3e;
+  border-radius: 20%;
+  margin-left: 25px;
+}
+.btn-group a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #000;
+}
+.contact-us-container{
+  font-family: "Montserrat" !important;
+  position: relative;
+  height: 600px;
+  background-color: #232429;
+  background-image: -webkit-gradient(linear, right top, right bottom, from(rgba(50, 50, 50, 0.945)), to(rgba(80,80,80,0.2)), color-stop(.5,#242323));
+  width: 90%;
+  overflow: hidden;
+  position: relative;
+  margin-left: 5%;
+}
+.contact-us-text{
+  position: relative;
+  display: grid;
+  margin-top: -30%;
+  width: 70%;
+  margin-left: 25%;
+}
+.contact-us-title{
+  font-size: 60px !important;
+  font-weight: bold;
+  color: white;
+}
+.contact-us-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0)), url("../Assets/Images/contact-form-img.png");
+  height: 100%;
+  background-position: start;
+  background-repeat: no-repeat;
+  margin: 10% -10%;
+  border-radius: 4px;
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+  position: relative;
+}
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea,
+
+#contact {
+  background: #011f05c9;
+  padding: 25px;
+  width: 100%;
+  margin-left: 100%;
+width: 150%;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+
+#contact h3 {
+  display: block;
+  font-size: 30px;
+  font-weight: 300;
+  margin-bottom: 10px;
+}
+
+#contact h4 {
+  margin: 5px 0 15px;
+  display: block;
+  font-size: 13px;
+  font-weight: 400;
+}
+
+fieldset {
+  border: medium none !important;
+  margin: 0 0 10px;
+  min-width: 100%;
+  padding: 0;
+  width: 100%;
+}
+
+#contact input[type="text"],
+#contact input[type="email"],
+#contact input[type="tel"],
+#contact input[type="url"],
+#contact textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  background: rgba(116, 228, 116, 0.431);
+  margin: 0 0 5px;
+  padding: 10px;
+}
+
+#contact input[type="text"]:hover,
+#contact input[type="email"]:hover,
+#contact input[type="tel"]:hover,
+#contact input[type="url"]:hover,
+#contact textarea:hover {
+  -webkit-transition: border-color 0.3s ease-in-out;
+  -moz-transition: border-color 0.3s ease-in-out;
+  transition: border-color 0.3s ease-in-out;
+  border: 1px solid #aaa;
+}
+
+#contact textarea {
+  height: 100px;
+  max-width: 100%;
+  resize: none;
+}
+
+#contact button[type="submit"] {
+  cursor: pointer;
+  color: rgb(116, 228, 116);
+  border: 1px solid rgb(116, 228, 116);
+  background: transparent;
+  color: #FFF;
+  font-size: 15px;
+}
+
+#contact button[type="submit"]:active {
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+
+#contact input:focus,
+#contact textarea:focus {
+  outline: 0;
+  border: 1px solid #aaa;
+}
+
+::-webkit-input-placeholder {
+  color: rgb(197, 197, 197);
+}
+
+
+@media (max-width: 992px) {
+  .container-nav {
+    background-color: transparent !important;
+    margin-right: 88% !important;
+  }
+  .contact-us-text{
+    margin-top: -65%;
+  }
+  .btn-group .btn a {
+    margin-left: 0 !important;
+  }
+  .logo-image {
+    height: 0px !important;
+  }
+  .text-block {
+    font-family: "Montserrat" !important;
+    height: 45%;
+    width: 40%;
+    margin-left: 30%;
+  }
+  .nav-item {
+    padding-left: 50px;
+  }
+  .contact-button {
+    font-size: 12px;
+    width: 150px;
+    margin-bottom: 20px;
+  }
+  .about-us-container{
+    height: 1200px;
+  }
+  .product-holder{
+    width: 100%;
+  height: 30%;
+  margin-top: 25%;
+  margin-left: 5%;
+  } 
+  .image-block{
+    width: 100% !important;
+  }
+  
+  
+}
+@media (max-width: 750px) {
+  .product-holder{
+  margin-top: 35%;
+  } 
+}
+@media (max-width: 1700px) {
+  .product-holder{
+    width: 100%;
+    margin-left: 5%;
+  } 
+  
+  .contact-us-text{
+    margin-top: -40%;
+  }
+  
+  #contact{
+    margin-left: 0;
+  }
+  .contact-us-title{
+    font-size: 20px !important;
+    width: 30%;
+  }
+
+  .products-container{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .products-text{
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 25%;
+    margin-left: 25%;
+    padding-bottom: 10%;
+    transform: translate(-50%, -50%);
+    color: rgb(197, 193, 193);
+  }
+  .cards{
+    padding-top: 10px;
+    height: fit-content ;
+  }
+}
+
